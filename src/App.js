@@ -13,7 +13,6 @@ const NewQuote = React.lazy(() => import('./pages/NewQuote').then((module) => ({
 const NotFound = React.lazy(() => import("./pages/NotFound").then((module) => ({default: module.NotFound})))
 const AllQuotes = React.lazy(() => import('./pages/AllQuotes').then((module) => ({default: module.AllQuotes})))
 
-
 function App() {
   return (
     <Layout>
